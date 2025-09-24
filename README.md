@@ -25,7 +25,6 @@ This project is a static site and can be viewed directly in any modern web brows
     ```bash
     git clone [https://github.com/Karan-Padhi/Bella-Vista-Restaurant-Landing-Page]
     ```
-
 2.  **Navigate to the Project Folder:**
     Ensure the folder contains the `index.html` file and the `/css/`, `/js/`, and `/assets/` directories[cite: 24].
 
