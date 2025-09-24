@@ -23,7 +23,7 @@ This project is a static site and can be viewed directly in any modern web brows
 
 1.  **Clone the Repository (or download the ZIP file):**
     ```bash
-    git clone [Your Repository URL Here]
+    git clone [https://github.com/Karan-Padhi/Bella-Vista-Restaurant-Landing-Page]
     ```
 
 2.  **Navigate to the Project Folder:**
