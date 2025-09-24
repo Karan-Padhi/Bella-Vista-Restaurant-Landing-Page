@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Bella Vista - Authentic Italian Cuisine | Fine Dining Restaurant
+    </title>
+    <meta
+      name="description"
+      content="Experience authentic Italian cuisine at Bella Vista. Fresh ingredients, traditional recipes, and warm hospitality in the heart of the city."
+    />
+
+    <!-- Open Graph tags -->
+    <meta
+      property="og:title"
+      content="Bella Vista - Authentic Italian Cuisine"
+    />
+    <meta
+      property="og:description"
+      content="Experience authentic Italian cuisine with fresh ingredients and traditional recipes."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://via.placeholder.com/1200x630/8B4513/FFFFFF?text=Bella+Vista+Restaurant"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <!-- Special Badge -->
+    <div class="special-badge" id="specialBadge">🍝 Today's Special!</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">🍝 Bella Vista</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="dark-mode-toggle"
+                id="darkModeToggle"
+                title="Toggle dark mode"
+              >
+                <i class="bi bi-moon-fill"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1>Bella Vista</h1>
+            <p class="lead">
+              Experience authentic Italian cuisine with fresh ingredients,
+              traditional recipes, and warm hospitality in the heart of the
+              city.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Reserve Table</a>
+              <a href="#menu" class="btn btn-outline-light">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Story</h2>
+          <p>
+            A passion for authentic Italian cuisine passed down through
+            generations
+          </p>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                alt="Chef preparing fresh pasta"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-4">From Tuscany to Your Table</h3>
+            <p class="lead">
+              Founded in 1985 by the Rossi family, Bella Vista brings the
+              authentic taste of Tuscany to your dining experience. Our recipes
+              have been lovingly preserved and passed down through four
+              generations.
+            </p>
+            <p>
+              Every dish is crafted with the finest imported ingredients and
+              prepared using time-honored techniques. From our handmade pasta to
+              our wood-fired pizzas, we ensure each meal is a celebration of
+              Italian culinary tradition.
+            </p>
+            <p>
+              Our commitment to quality extends beyond the kitchen. We believe
+              dining is about bringing people together, creating memories, and
+              sharing the joy of exceptional food with those we care about most.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section id="menu">
+      <div class="container">
+        <div class="section-title">
+          <h2>Menu Highlights</h2>
+          <p>Signature dishes crafted with love and tradition</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=1032&q=80"
+                alt="Margherita Pizza"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Margherita Pizza</h5>
+                <p class="card-text">
+                  Wood-fired pizza with fresh mozzarella, San Marzano tomatoes,
+                  and basil
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://www.immaculateruemu.com/wp-content/uploads/2021/03/Spaghetti-alla-carbonara-Romana-3-1.jpeg"
+                alt="Spaghetti Carbonara"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spaghetti Carbonara</h5>
+                <p class="card-text">
+                  Traditional Roman pasta with eggs, pecorino cheese, and
+                  guanciale
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$22</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                alt="Osso Buco"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Osso Buco</h5>
+                <p class="card-text">
+                  Braised veal shanks with vegetables, white wine, and broth
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$32</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://unpeeledjournal.com/wp-content/uploads/2022/01/51806690339_f92655219a_h.jpg"
+                alt="Risotto ai Funghi"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Risotto ai Funghi</h5>
+                <p class="card-text">
+                  Creamy Arborio rice with mixed wild mushrooms and truffle oil
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$26</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                alt="Tiramisu"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tiramisu</h5>
+                <p class="card-text">
+                  Classic Italian dessert with coffee-soaked ladyfingers and
+                  mascarpone
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$12</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card menu-card">
+              <img
+                src="https://theviewfromgreatisland.com/wp-content/uploads/2023/07/burrata-platter-3-600x450.jpg"
+                alt="Antipasto Platter"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Antipasto Platter</h5>
+                <p class="card-text">
+                  Selection of cured meats, cheeses, olives, and roasted
+                  vegetables
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="price">$24</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>A glimpse into our culinary artistry and warm atmosphere</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Restaurant Interior"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Fine Dining Setup"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Fresh Ingredients"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Chef at Work"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Wine Collection"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#galleryModal"
+              data-bs-image="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Outdoor Seating"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img id="modalImage" src="" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <h2>What Our Guests Say</h2>
+          <p>Real experiences from our valued customers</p>
+        </div>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card text-center">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">
+                  "An absolutely incredible dining experience! The pasta was
+                  perfectly al dente and the service was impeccable. This is
+                  authentic Italian cuisine at its finest."
+                </p>
+                <h5>Sarah Johnson</h5>
+                <p class="text-muted">Food Blogger</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card text-center">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">
+                  "Bella Vista transported me straight to Italy! The ambiance is
+                  perfect for romantic dinners, and every dish tells a story.
+                  I'll definitely be coming back."
+                </p>
+                <h5>Michael Chen</h5>
+                <p class="text-muted">Local Resident</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card text-center">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">
+                  "Outstanding food and service! The tiramisu was heavenly, and
+                  the staff made our anniversary dinner truly special. Highly
+                  recommended!"
+                </p>
+                <h5>Emma Rodriguez</h5>
+                <p class="text-muted">Anniversary Celebrant</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card text-center">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">
+                  "The atmosphere is cozy and welcoming, perfect for family
+                  gatherings. The kids loved the pizza and we adults were amazed
+                  by the sophisticated flavors."
+                </p>
+                <h5>David Park</h5>
+                <p class="text-muted">Family Diner</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card text-center">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">
+                  "From the moment we walked in, we felt like family. The owner
+                  personally came to our table and the wine pairing was
+                  exceptional. A true gem!"
+                </p>
+                <h5>Lisa Thompson</h5>
+                <p class="text-muted">Wine Enthusiast</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact & Location</h2>
+          <p>Visit us or get in touch to make a reservation</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="contact-info">
+              <h4 class="mb-4">Get In Touch</h4>
+              <div class="contact-item mb-3">
+                <i class="bi bi-geo-alt-fill text-primary"></i>
+                <div>
+                  <h6>Address</h6>
+                  <p>
+                    123 Italian Street<br />Little Italy District<br />New York,
+                    NY 10012
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item mb-3">
+                <i class="bi bi-telephone-fill text-primary"></i>
+                <div>
+                  <h6>Phone</h6>
+                  <p><a href="tel:+12125551234">(212) 555-1234</a></p>
+                </div>
+              </div>
+              <div class="contact-item mb-3">
+                <i class="bi bi-envelope-fill text-primary"></i>
+                <div>
+                  <h6>Email</h6>
+                  <p>
+                    <a href="mailto:info@bellavista.com">info@bellavista.com</a>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock-fill text-primary"></i>
+                <div>
+                  <h6>Hours</h6>
+                  <p>
+                    Mon-Thu: 5:00 PM - 10:00 PM<br />
+                    Fri-Sat: 5:00 PM - 11:00 PM<br />
+                    Sun: 4:00 PM - 9:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form id="contactForm" novalidate>
+              <h4 class="mb-4">Make a Reservation</h4>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName" class="form-label">First Name *</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide your first name.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName" class="form-label">Last Name *</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide your last name.
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                />
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="date" class="form-label">Preferred Date *</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="date"
+                    name="date"
+                    required
+                  />
+                  <div class="invalid-feedback">Please select a date.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="time" class="form-label">Preferred Time *</label>
+                  <select class="form-control" id="time" name="time" required>
+                    <option value="">Select Time</option>
+                    <option value="17:00">5:00 PM</option>
+                    <option value="17:30">5:30 PM</option>
+                    <option value="18:00">6:00 PM</option>
+                    <option value="18:30">6:30 PM</option>
+                    <option value="19:00">7:00 PM</option>
+                    <option value="19:30">7:30 PM</option>
+                    <option value="20:00">8:00 PM</option>
+                    <option value="20:30">8:30 PM</option>
+                    <option value="21:00">9:00 PM</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a time.</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="guests" class="form-label"
+                  >Number of Guests *</label
+                >
+                <select class="form-control" id="guests" name="guests" required>
+                  <option value="">Select Number</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="7">7 Guests</option>
+                  <option value="8">8 Guests</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select number of guests.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Special Requests</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Any special dietary requirements or requests..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">
+                Make Reservation
+              </button>
+            </form>
+
+            <!-- Success Message -->
+            <div
+              id="successMessage"
+              class="alert alert-success mt-3"
+              style="display: none"
+            >
+              <i class="bi bi-check-circle-fill"></i>
+              Thank you! Your reservation request has been received. We'll
+              contact you shortly to confirm.
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2509765163626!2d-73.99668908459396!3d40.72077057932944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598c823c8797%3A0x304ae1bb9c2a4b16!2sLittle%20Italy%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1623456789012!5m2!1sen!2sus"
+                width="100%"
+                height="400"
+                style="border: 0; border-radius: 15px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h5>Opening Hours</h5>
+            <p class="text-white-50 mb-1">
+              Monday - Thursday: 5:00 PM - 10:00 PM
+            </p>
+            <p class="text-white-50 mb-1">
+              Friday - Saturday: 5:00 PM - 11:00 PM
+            </p>
+            <p class="text-white-50 mb-3">Sunday: 4:00 PM - 9:00 PM</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" aria-label="TripAdvisor"
+                ><i class="bi bi-geo-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">
+              &copy; 2025 Bella Vista Restaurant. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p class="mb-0">Made with ❤️ for authentic Italian cuisine</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
